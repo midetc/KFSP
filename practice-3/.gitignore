@@ -1,0 +1,35 @@
+# Байт-компилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Дистрибутивы
+dist/
+build/
+*.egg-info/
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+
+# Файлы журналов и данных
+*.log
+data/basel_temperature.csv
+forecast_plot.png
+*.csv
+
+# Настройки IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Локальные настройки
+.env
+.env.*
+
+# Временные файлы
+*.tmp
+*.bak
+temp/ 
